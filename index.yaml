@@ -20,6 +20,23 @@ entries:
     version: 2.23.15-branch.testing6.335283-02f80b3
   speckle-server:
   - apiVersion: v2
+    appVersion: 2.25.8-alpha.265
+    created: "2025-07-15T15:19:25.927896037Z"
+    description: Speckle Server
+    digest: 59f2d1d251ecaed1b46b7b9c33e7856167d992a9d57343085f52b44ab3bbbbb4
+    home: https://speckle.systems/
+    icon: https://app.speckle.systems/images/logo.png
+    maintainers:
+    - name: Speckle Systems
+      url: https://speckle.systems/
+    name: speckle-server
+    sources:
+    - https://github.com/specklesystems/speckle-server
+    type: application
+    urls:
+    - https://github.com/ehtick/helm/releases/download/speckle-server-2.25.8-alpha.265/speckle-server-2.25.8-alpha.265.tgz
+    version: 2.25.8-alpha.265
+  - apiVersion: v2
     appVersion: 2.25.8-alpha.254
     created: "2025-07-14T20:14:27.083853424Z"
     description: Speckle Server
@@ -2260,6 +2277,23 @@ entries:
     version: 2.23.25-branch.testing1.366706-f257293
   speckle-server-branch-testing2:
   - apiVersion: v2
+    appVersion: 2.25.8-branch.testing2.261-2abeb0b
+    created: "2025-07-15T15:19:26.115150329Z"
+    description: Speckle Server
+    digest: 07c23bbbcc4c29d1b003882a53aecaca5a565214df13c78727b4467900a0201d
+    home: https://speckle.systems/
+    icon: https://app.speckle.systems/images/logo.png
+    maintainers:
+    - name: Speckle Systems
+      url: https://speckle.systems/
+    name: speckle-server-branch-testing2
+    sources:
+    - https://github.com/specklesystems/speckle-server
+    type: application
+    urls:
+    - https://github.com/ehtick/helm/releases/download/speckle-server-branch-testing2-2.25.8-branch.testing2.261-2abeb0b/speckle-server-branch-testing2-2.25.8-branch.testing2.261-2abeb0b.tgz
+    version: 2.25.8-branch.testing2.261-2abeb0b
+  - apiVersion: v2
     appVersion: 2.25.8-branch.testing2.228-fc40c4e
     created: "2025-07-10T14:14:30.441112859Z"
     description: Speckle Server
@@ -3022,4 +3056,4 @@ entries:
     urls:
     - https://github.com/specklesystems/helm/releases/download/test-speckle-server-0.1.0/test-speckle-server-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-14T20:14:27.330798865Z"
+generated: "2025-07-15T15:19:26.116102264Z"
