@@ -20,6 +20,23 @@ entries:
     version: 2.23.15-branch.testing6.335283-02f80b3
   speckle-server:
   - apiVersion: v2
+    appVersion: 2.26.2-alpha.1002
+    created: "2025-09-23T20:49:58.659072355Z"
+    description: Speckle Server
+    digest: 847973e7efc26dbd45b68d0552062bb9633daf8e342ec655b3ba5da1ef502f4d
+    home: https://speckle.systems/
+    icon: https://app.speckle.systems/images/logo.png
+    maintainers:
+    - name: Speckle Systems
+      url: https://speckle.systems/
+    name: speckle-server
+    sources:
+    - https://github.com/specklesystems/speckle-server
+    type: application
+    urls:
+    - https://github.com/ehtick/helm/releases/download/speckle-server-2.26.2-alpha.1002/speckle-server-2.26.2-alpha.1002.tgz
+    version: 2.26.2-alpha.1002
+  - apiVersion: v2
     appVersion: 2.26.2-alpha.996
     created: "2025-09-23T14:14:31.061570102Z"
     description: Speckle Server
@@ -4215,6 +4232,23 @@ entries:
     - https://github.com/ehtick/helm/releases/download/speckle-server-branch-testing2-2.26.2-branch.testing2.889-7839178/speckle-server-branch-testing2-2.26.2-branch.testing2.889-7839178.tgz
     version: 2.26.2-branch.testing2.889-7839178
   - apiVersion: v2
+    appVersion: 2.26.2-branch.testing2.1005-5a9178d
+    created: "2025-09-23T20:49:58.80193385Z"
+    description: Speckle Server
+    digest: 261a727ff74176eca495cd306297295482abbd314425f81deb5ddf64da39a2b7
+    home: https://speckle.systems/
+    icon: https://app.speckle.systems/images/logo.png
+    maintainers:
+    - name: Speckle Systems
+      url: https://speckle.systems/
+    name: speckle-server-branch-testing2
+    sources:
+    - https://github.com/specklesystems/speckle-server
+    type: application
+    urls:
+    - https://github.com/ehtick/helm/releases/download/speckle-server-branch-testing2-2.26.2-branch.testing2.1005-5a9178d/speckle-server-branch-testing2-2.26.2-branch.testing2.1005-5a9178d.tgz
+    version: 2.26.2-branch.testing2.1005-5a9178d
+  - apiVersion: v2
     appVersion: 2.26.1-branch.testing2.879-1d30abc
     created: "2025-09-12T14:14:30.169146526Z"
     description: Speckle Server
@@ -6915,4 +6949,4 @@ entries:
     urls:
     - https://github.com/specklesystems/helm/releases/download/test-speckle-server-0.1.0/test-speckle-server-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-23T14:14:31.333101394Z"
+generated: "2025-09-23T20:49:58.804808816Z"
